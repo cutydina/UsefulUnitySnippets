@@ -10,18 +10,15 @@ public class VirtualDPad : MonoBehaviour
     private Vector2 touchStartPosition, touchEndPosition;
     private string direction;
 
-  // Start is called before the first frame update
     void Update()
     {
         if (Input.touchCount > 0)
         {
             theTouch = Input.GetTouch(0);
-
             if (theTouch.phase == TouchPhase.Began)
             {
                 touchStartPosition = theTouch.position;
             }
-
             else if (theTouch.phase == TouchPhase.Moved || theTouch.phase == TouchPhase.Ended)
                 {
                 touchEndPosition = theTouch.position;
@@ -45,8 +42,6 @@ public class VirtualDPad : MonoBehaviour
                 }
             }
         }
-
         directionText.text = direction;
     }
-
 }
