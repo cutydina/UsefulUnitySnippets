@@ -1,3 +1,5 @@
+// This code helps to move a character in 4 direction with Mobile Swipping.
+
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
