@@ -10,7 +10,7 @@ public class KeyboardMove : MonoBehaviour
     private void Update()
     {
 
-        // This movemnt is just for 4 directions
+        // This movement is for a GridMovement in 4 directions.
         if (Input.GetKey(KeyCode.D))
         {
             transform.Translate(Vector2.right * speed);
