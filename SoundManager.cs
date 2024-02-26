@@ -40,7 +40,6 @@ else
 }
 Save();
 UpdateButtonIcon();
-
 }
 
 private void UpdateButtonIcon()
@@ -49,7 +48,6 @@ private void UpdateButtonIcon()
     {
         soundOnIcon.enabled = true;
         soundOffIcon.enabled = false;
-
     }
 
     else 
@@ -69,5 +67,4 @@ private void Save()
 {
     PlayerPrefs.SetInt("muted", muted ? 1 : 0);
 }
-
 }
