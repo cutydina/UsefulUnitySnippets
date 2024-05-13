@@ -6,6 +6,8 @@ using GoogleMobileAds;
 
 public class AdManager : MonoBehaviour
 {
+
+    // Notes: First install Google Mobile "Ads Unity Plugin" from https://github.com/googleads/googleads-mobile-unity and then add this code to an empty prefab. 
     // GOOGLE TEST ADS ID
     private string adUnitBanner = "ca-app-pub-3940256099942544/6300978111";
 
